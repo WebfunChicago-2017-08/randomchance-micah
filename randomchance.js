@@ -17,6 +17,9 @@ function randomChance(quarters) {
 
         }
     }
+    if(turns === 0){
+        return "You have zero quarters left.";
+    }
 }
 
 randomChance(5);
